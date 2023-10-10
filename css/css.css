@@ -1,0 +1,63 @@
+html {
+    font-family: 'Post No Bills Colombo ExtraBold', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(182, 0, 0);
+
+}
+
+header {
+    background-color: red;
+    align-content: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+
+.header-logo {
+    align-content: center;
+    vertical-align: middle;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.header-nav-element {
+    text-decoration: none; color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.header-nav-element:hover {
+    color: white;
+}
+
+.ostoskori {
+    text-decoration: none; color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.ostoskori:hover {
+    color: white;
+}
+
+footer {
+    position: absolute; 
+    border-top: transparent 2px; 
+    bottom: 0; width: 100%; 
+    background-color: rgb(90, 0, 0);
+    vertical-align: center;
+}
+.classi1 {
+    padding: 0; 
+    margin: 0; 
+    font-size: 20px;
+    filter: invert(100%);
+    padding-left: 15px;
+    vertical-align: center;
+}
