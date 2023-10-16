@@ -66,3 +66,20 @@ footer a {
     padding-left: 15px;
     vertical-align: center;
 }
+article {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 75px;
+    font-size: 50px;
+}
+.article-nav-element:hover {
+    color: rgb(255, 255, 255);
+}
+.article-nav-element {
+    text-decoration: none; color: rgb(0, 0, 0)
+}
+aside {
+    text-align: center;
+    padding-right: 75px;
+    font-size: 50px;
+}
