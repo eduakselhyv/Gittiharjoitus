@@ -84,7 +84,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
 }
 
 .classi1 {
@@ -94,7 +93,9 @@ footer a {
     filter: invert(100%);
     padding-left: 15px;
     vertical-align: center;
+    color: white;
 }
+
 article {
     text-decoration: none; color: rgb(0, 0, 0);
     padding-top: 100px;
@@ -130,6 +131,7 @@ article {
     font-size: 25px;
     font-weight: bold;
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .yhteysinfo {
@@ -149,8 +151,7 @@ article {
 }
 
 .kartta {
-    height: 400px;
-    padding-right: 100px;  
+    height: 400px;  
 }
 .button1{
     font-size: 20px;
