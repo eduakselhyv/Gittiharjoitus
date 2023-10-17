@@ -94,14 +94,14 @@ footer img {
     padding-bottom: 20px;
     font-size: 20px;
     display: inline-block; 
-    width: 87%;
+    width: 85%;
 }
 
 .footerlinks {
     display: flex;
     font-size: 30px;
     width: auto;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .footerlinks a {
