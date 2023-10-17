@@ -6,9 +6,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(182, 0, 0);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -76,11 +73,10 @@ header {
 }
 
 footer {
-    border-top: 2px; 
+    border-top: transparent 2px; 
     width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
-    margin-top: auto;
 }
 
 footer a {
@@ -94,33 +90,24 @@ footer a {
     filter: invert(100%);
     padding-left: 15px;
     vertical-align: center;
-    color: white;
 }
-
 article {
-    font-family: 'Post No Bills Colombo Extrabold';
-    text-decoration: none; color: rgb(255, 255, 255);
+    text-decoration: none; color: rgb(0, 0, 0);
     padding-top: 100px;
     padding-left: 75px;
 }
 .article-nav-element:hover {
-    color: #C3E300;
+    color: rgb(255, 255, 255);
 }
 .article-nav-element {
-    text-decoration: none; color: rgb(255, 255, 255);
+    text-decoration: none; color: rgb(0, 0, 0);
     font-size: 50px;
     display:inline-block
-}
-.article {
-    font-size: 40px;
-    align-content: center;
-    display:inline-block;
-    padding-left: 170px;
-    padding-right: 30px
 }
 .uutuudet {
     display:inline-block;
     vertical-align:middle;
+    padding-left: 65px;
     font-size: 45px;
     text-align:center
 }
@@ -134,7 +121,6 @@ article {
     font-size: 25px;
     font-weight: bold;
     padding-top: 60px;
-    padding-bottom: 50px;
 }
 
 .yhteysinfo {
@@ -154,19 +140,12 @@ article {
 }
 
 .kartta {
-    height: 400px;  
-}
-.button1{
-    font-size: 20px;
-    font-family: 'Post No Bills Colombo Extrabold';
-}
-.button2{
-    font-size: 20px;
-    font-family: 'Post No Bills Colombo Extrabold';
+    height: 400px;
+    padding-right: 100px;  
 }
 
-.info {
-    display: inline-block; 
-    width: 50%; 
-    vertical-align: top
+.info{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
 }
