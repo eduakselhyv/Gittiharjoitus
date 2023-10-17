@@ -1,0 +1,35 @@
+.menu{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu-items{
+    
+}
+.menu-item{
+    display: inline-block;
+    background: white;
+    width: 30%;
+    position: relative;
+    margin-right: calc(10%/3);
+    margin-bottom: 20px;
+}
+.menu-item-image{
+    display: block;
+}
+.menu-item-plus{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-item img{
+    width: 100%;
+    display: block;
+}
+.menu-item-description{
+    position: relative;
+    padding: 8px 12px;
+}
+.menu-item-description a{
+    font-family: 'Post No Bills Colombo Extrabold', sans-serif;
+    font-size: 28px;
+}
