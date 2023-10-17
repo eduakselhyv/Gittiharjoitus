@@ -79,13 +79,30 @@ footer {
     vertical-align: center;
 }
 
-footer a {
-    text-decoration: none;
-    color: white;
+footer img {
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
-.classi1 svg {
+.footerinfo {
+    color: rgb(205, 205, 205);
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    display: inline-block; 
+    width: 87%;
+}
+
+.footerlinks {
+    display: flex;
+    font-size: 30px;
+    width: auto;
+    display: inline-block; 
+}
+
+.footerlinks a {
     fill: white;
+    text-decoration: none;
 }
 
 .classi1 {
