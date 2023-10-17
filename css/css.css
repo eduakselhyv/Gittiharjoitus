@@ -70,19 +70,31 @@ footer a {
     vertical-align: center;
 }
 article {
-    text-align: left;
-    padding-top: 150px;
+    text-decoration: none; color: rgb(0, 0, 0);
+    padding-top: 100px;
     padding-left: 75px;
-    font-size: 50px;
 }
 .article-nav-element:hover {
     color: rgb(255, 255, 255);
 }
 .article-nav-element {
-    text-decoration: none; color: rgb(0, 0, 0)
-}
-aside {
-    text-align: center;
-    padding-right: 75px;
+    text-decoration: none; color: rgb(0, 0, 0);
     font-size: 50px;
+    display:inline-block
+}
+.article {
+    font-size: 40px;
+    align-content: center;
+    display:inline-block;
+    padding-left: 170px
+}
+.uutuudet {
+    display:inline-block;
+    vertical-align:middle;
+    padding-left: 65px;
+    font-size: 45px;
+    text-align:center
+}
+.uutuudet img{
+    display:block
 }
