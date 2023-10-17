@@ -73,9 +73,10 @@ header {
 
 footer {
     border-top: transparent 2px; 
-    bottom: 0; width: 100%; 
+    width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
+    position: absolute;
 }
 
 footer a {
@@ -118,4 +119,11 @@ article {
 }
 .uutuudet img{
     display:block
+}
+
+.yhteystiedot {
+    color: white;
+    font-family: 'Post No Bills Colombo', monospace;
+    font-size: 25px;
+    font-weight: bold;
 }
