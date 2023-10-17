@@ -76,6 +76,8 @@ footer {
     width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
+    display: flexbox;
+    margin-top: 100px;
 }
 
 footer a {
@@ -147,4 +149,10 @@ article {
 .kartta {
     height: 400px;
     padding-right: 100px;  
+}
+
+.info {
+    display: inline-block; 
+    width: 50%; 
+    vertical-align: top
 }
