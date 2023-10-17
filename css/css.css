@@ -60,11 +60,12 @@ header {
 .ostoskori-menu{
     position: absolute;
     top: 75px;
-    right: 0;
+    right: 25px;
     height: 400px;
-    width: 200px;
-    background: rgb(182, 0, 0);
+    width: 300px;
+    background: white;
     z-index: 100;
+    border-radius: 5px;
 }
 
 .visibility{
