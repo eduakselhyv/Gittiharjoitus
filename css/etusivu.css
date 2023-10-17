@@ -1,0 +1,20 @@
+.uutuudet-img{
+    height: 500px;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.edellinen{
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.seuraava{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
