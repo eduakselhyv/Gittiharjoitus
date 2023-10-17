@@ -105,4 +105,28 @@ article {
     font-family: 'Post No Bills Colombo', monospace;
     font-size: 25px;
     font-weight: bold;
+    padding-top: 60px;
+}
+
+.yhteysinfo {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.yhteyssome {
+    width: 300px;
+    color: black;
+    background-color: white;
+    padding: 5px 5px;
+    margin: 5px 0px;
+    vertical-align: center;
+    position: relative;
+    height: 50px;
+}
+
+.kartta {
+    height: 400px;
+    width: auto;
+    float: right;
+    padding-right: 100px;  
 }
