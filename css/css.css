@@ -85,13 +85,17 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: white;
+}
+
+.classi1 svg {
+    fill: white;
 }
 
 .classi1 {
     padding: 0; 
     margin: 0; 
     font-size: 20px;
-    filter: invert(100%);
     padding-left: 15px;
     vertical-align: center;
     color: white;
