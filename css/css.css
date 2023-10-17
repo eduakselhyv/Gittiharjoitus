@@ -88,10 +88,15 @@ article {
 .uutuudet {
     display:inline-block;
     vertical-align:middle;
-    padding-left: 65px;
     font-size: 45px;
     text-align:center
 }
 .uutuudet img{
     display:block
+}
+.button1{
+    font-size: 20px;
+}
+.button2{
+    font-size: 20px;
 }
