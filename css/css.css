@@ -112,7 +112,6 @@ article {
 .uutuudet {
     display:inline-block;
     vertical-align:middle;
-    padding-left: 65px;
     font-size: 45px;
     text-align:center
 }
@@ -147,4 +146,10 @@ article {
 .kartta {
     height: 400px;
     padding-right: 100px;  
+}
+.button1{
+    font-size: 20px;
+}
+.button2{
+    font-size: 20px;
 }
