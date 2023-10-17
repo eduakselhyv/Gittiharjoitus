@@ -142,6 +142,7 @@ article {
     font-size: 25px;
     font-weight: bold;
     padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .yhteysinfo {
@@ -163,11 +164,12 @@ article {
 .kartta {
     height: 400px;
     padding-right: 100px;  
+    padding-bottom: 20px;
 }
 
 .info {
     display: inline-block; 
-    width: 50%; 
+    width: 48%; 
     vertical-align: top
 }
 
@@ -178,9 +180,9 @@ article {
     display: inline-block; 
     width: auto; 
     vertical-align: top;
-    padding-left: 30px;
+    padding-left: 0;
 }
-aside {
+.tapahtumat {
     font-family: 'Post No Bills Colombo Extrabold';
     padding-left: 30px;
     font-size: 26px;
