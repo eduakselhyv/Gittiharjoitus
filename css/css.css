@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,h7{
     font-family: 'Post No Bills Colombo', monospace;
 }
 
@@ -169,4 +169,24 @@ article {
     display: inline-block; 
     width: 50%; 
     vertical-align: top
+}
+
+.pizzaperjantai{
+    padding-top:50px;
+}
+.ppkuva {
+    display: inline-block; 
+    width: auto; 
+    vertical-align: top;
+    padding-left: 30px;
+}
+aside {
+    font-family: 'Post No Bills Colombo Extrabold';
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+.pizzaperjantai2{
+    padding-top: 100px;
+    padding-bottom: 100px
 }
