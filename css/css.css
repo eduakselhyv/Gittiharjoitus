@@ -52,9 +52,10 @@ header {
 
 footer {
     border-top: transparent 2px; 
-    bottom: 0; width: 100%; 
+    width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
+    position: absolute;
 }
 
 footer a {
