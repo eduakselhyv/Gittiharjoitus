@@ -76,6 +76,7 @@ footer {
     width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
+    display: flexbox;
 }
 
 footer a {
@@ -152,4 +153,10 @@ article {
 }
 .button2{
     font-size: 20px;
+}
+
+.info {
+    display: inline-block; 
+    width: 50%; 
+    vertical-align: top
 }
