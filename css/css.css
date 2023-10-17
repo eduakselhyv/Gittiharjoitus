@@ -99,3 +99,10 @@ article {
 .uutuudet img{
     display:block
 }
+
+.yhteystiedot {
+    color: white;
+    font-family: 'Post No Bills Colombo', monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
