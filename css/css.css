@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(182, 0, 0);
-
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -14,40 +13,62 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header {
-    background-color: red;
-    align-content: center;
-    padding: 10px 20px;
+    text-align: center;
     font-size: 25px;
-    padding-bottom: 0px;
+    width: 100%;
+    height: 75px;
 }
 
 .header-logo {
     align-content: center;
-    vertical-align: middle;
-    padding-right: 50px;
     text-decoration: none;
+    float: left;
+    margin-left: 35px;
+}
+
+.header-logo img{
+    height: 45px;
+    margin: 15px 0;
+}
+
+.header-linkit{
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Post No Bills Colombo Extrabold';
+    line-height: 65px;
+    font-size: 20px;
 }
 
 .header-nav-element {
-    text-decoration: none; color: black;
-    text-align: center;
-    vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
     padding: 8px;
+    transition: color .5s;
 }
 
-.header-nav-element:hover {
-    color: white;
+.header-nav-element:hover{
+    color: #C3E300;
 }
 
 .ostoskori {
-    text-decoration: none; color: black;
-    text-align: center;
-    vertical-align: middle;
-    padding: 8px;
+    float: right;
+    margin-right: 35px;
+    line-height: 65px;
+    margin-top: 10px;
 }
 
-.ostoskori:hover {
-    color: white;
+.ostoskori-menu{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    height: 400px;
+    width: 200px;
+    background: rgb(182, 0, 0);
+    z-index: 100;
+}
+
+.visibility{
+    display: none;
 }
 
 footer {
