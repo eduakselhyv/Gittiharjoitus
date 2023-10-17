@@ -6,6 +6,9 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(182, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -60,11 +63,12 @@ header {
 .ostoskori-menu{
     position: absolute;
     top: 75px;
-    right: 0;
+    right: 25px;
     height: 400px;
-    width: 200px;
-    background: rgb(182, 0, 0);
+    width: 300px;
+    background: white;
     z-index: 100;
+    border-radius: 5px;
 }
 
 .visibility{
@@ -72,11 +76,11 @@ header {
 }
 
 footer {
-    border-top: transparent 2px; 
+    border-top: 2px; 
     width: 100%; 
     background-color: rgb(90, 0, 0);
     vertical-align: center;
-    display: flexbox;
+    margin-top: auto;
 }
 
 footer a {
@@ -90,7 +94,9 @@ footer a {
     filter: invert(100%);
     padding-left: 15px;
     vertical-align: center;
+    color: white;
 }
+
 article {
     font-family: 'Post No Bills Colombo Extrabold';
     text-decoration: none; color: rgb(255, 255, 255);
@@ -128,6 +134,7 @@ article {
     font-size: 25px;
     font-weight: bold;
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .yhteysinfo {
@@ -147,8 +154,7 @@ article {
 }
 
 .kartta {
-    height: 400px;
-    padding-right: 100px;  
+    height: 400px;  
 }
 .button1{
     font-size: 20px;
