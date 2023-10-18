@@ -1,6 +1,6 @@
 .uutuudet-img{
     height: 500px;
-    width: 50%;
+    width: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +17,9 @@
     right: 25px;
     top: 50%;
     transform: translate(0,-50%);
+}
+
+.uutuudet-teksti {
+    padding-bottom: 15px;
+    color: white;
 }

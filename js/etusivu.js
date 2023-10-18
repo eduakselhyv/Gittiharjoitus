@@ -10,13 +10,13 @@ $('document').ready(function(){
     });
     let images = [
         {
-            otsikko: "test 1",
-            teksti: "testi teksti 1",
+            otsikko: "Talon Erikoinen",
+            teksti: "Uusi hyvä pizza nami nami",
             kuva: "img/talonerikoinen.jpg"
         },
         {
-            otsikko: "test 2",
-            teksti: "testi teksti 2",
+            otsikko: "Kanakebab",
+            teksti: "Kanaa, kebabbia ja leipää",
             kuva: "img/kanakebab.jpg"
         }
     ];
