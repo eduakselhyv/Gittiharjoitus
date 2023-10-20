@@ -47,6 +47,11 @@
     .ppkuva img {
         display: block;
         margin: 0 auto;
+
+        height: auto;
+        max-width: 90%;
+        padding-left: 5px;
+        padding-right: 5px;    
     }
 
     .tapahtumat div {

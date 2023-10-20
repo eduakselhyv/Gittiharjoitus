@@ -16,12 +16,6 @@
     transform: translate(0,-50%);
 }
 
-article {
-    text-decoration: none; color: rgb(0, 0, 0);
-    padding-top: 100px;
-    padding-left: 75px;
-}
-
 .seuraava{
     position: absolute;
     right: 25px;
@@ -118,6 +112,7 @@ p {
         padding-bottom: 30px;
         width: 100%;
         text-align: center;
+        padding: 0;
     }
 
     article {
@@ -128,8 +123,10 @@ p {
     }
 
     .uutuudet-img {
-        left: 50%;
-        transform: translate(-50%);
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        background-size: contain;
     }
 
     .kotiinkuljetus-osio {

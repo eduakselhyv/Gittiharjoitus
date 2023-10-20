@@ -34,3 +34,5 @@
     width: 48%; 
     vertical-align: top
 }
+
+@media screen and (max-width: 1140px) {
