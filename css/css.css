@@ -57,19 +57,8 @@ header {
     margin-top: 10px;
 }
 
-.ostoskori-menu{
-    position: absolute;
-    top: 75px;
-    right: 25px;
-    height: 400px;
-    width: 300px;
-    background: white;
-    z-index: 100;
-    border-radius: 5px;
-}
-
 .visibility{
-    display: none;
+    display: none!important;
 }
 
 footer {
@@ -129,4 +118,56 @@ article {
 .pizzaperjantai2{
     padding-top: 100px;
     padding-bottom: 100px
+}
+
+/*
+    Ostoskori
+*/
+
+.ostoskori-menu{
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    height: 450px;
+    width: 400px;
+    background: white;
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    height: 450px;
+}
+
+.ostoskori-menu-top{
+    margin: 0 25px;
+}
+.ostoskori-menu-top h3{
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.ostoskori-menu-item{
+    width: 350px;
+    margin: 5px auto 0 auto;
+    padding: 10px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.ostoskori-menu-items{
+    height: 330px;
+    overflow-y: scroll;
+}
+
+.ostoskori-menu span{
+    line-height: 0;
+    font-size: 20px;
+}
+
+.ostoskori-arrow-quantity{
+    text-decoration: none;
+}
+
+.ostoskori-menu-bottom{
+    text-align: right;
+    height: 48px;
 }
