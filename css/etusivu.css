@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-image: url(img/talonerikoinen.jpg);
 }
 .edellinen{
     position: absolute;
@@ -22,4 +23,52 @@
 .uutuudet-teksti {
     padding-bottom: 15px;
     color: white;
+}
+
+.jskuva {
+    padding-top: 40px; 
+    padding-bottom: 100px;  
+    font-family: post no bills colombo extrabold; 
+    display: inline-block; 
+    width: 50%;
+}
+
+h3 {
+    font-size: 40px; 
+    margin: 15px 0px;
+}
+
+p {
+    font-size: 20px; 
+    margin: 0;
+}
+
+.nuoli {
+    color: black;
+}
+
+.sivutieto {
+    padding-top: 220px; 
+    display: inline-block; 
+    width: auto; 
+    vertical-align: top;
+}
+
+.aukioloajat-osio {
+    background-color: darkred; 
+    padding: 10px; 
+    width: 70%;
+}
+
+.sivutieto-otsikot {
+    color: white; 
+    font-family: post no bills colombo extrabold; 
+    font-size: 40px
+}
+
+.aukioloajat {
+    padding-top: 20px; 
+    color: white; 
+    font-size: 20px; 
+    font-family: post no bills colombo;
 }
