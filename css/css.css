@@ -8,7 +8,7 @@ body {
     background-color: rgb(182, 0, 0);
 }
 
-h1,h2,h3,h4,h5,h6,h7{
+h1,h2,h3,h4,h5,h6,h7 {
     font-family: 'Post No Bills Colombo', monospace;
 }
 
@@ -105,38 +105,10 @@ footer img {
     text-decoration: none;
 }
 
-.classi1 {
-    padding: 0; 
-    margin: 0; 
-    font-size: 20px;
-    padding-left: 15px;
-    vertical-align: center;
-}
 article {
     text-decoration: none; color: rgb(0, 0, 0);
     padding-top: 100px;
     padding-left: 75px;
-}
-.article-nav-element:hover {
-    color: #C3E300;
-}
-.article-nav-element {
-    text-decoration: none; color: rgb(0, 0, 0);
-    font-size: 50px;
-    display:inline-block;
-    color: white;
-    transition: color .5s;
-    font-family: 'Post No Bills Colombo Extrabold'
-}
-.uutuudet {
-    display:inline-block;
-    vertical-align:middle;
-    padding-left: 65px;
-    font-size: 45px;
-    text-align:center;
-}
-.uutuudet img{
-    display:block
 }
 
 .pizzaperjantai{
