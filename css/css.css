@@ -32,6 +32,12 @@ header {
     margin: 15px 0;
 }
 
+article {
+    text-decoration: none; color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-left: 75px;
+}
+
 .header-linkit{
     display: inline-block;
     margin-top: 10px;

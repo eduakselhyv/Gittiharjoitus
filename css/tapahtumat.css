@@ -7,14 +7,50 @@
     width: auto; 
     vertical-align: top;
     padding-left: 0;
+    padding-bottom: 15px;
 }
 .tapahtumat {
     font-family: 'Post No Bills Colombo Extrabold';
     padding-left: 30px;
     font-size: 26px;
+    display: inline-block; 
+    width: 50%;
 }
 
 .pizzaperjantai2{
     padding-top: 100px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1110px) {
+    .tapahtumat {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .pizzaperjantai {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .pizzaperjantai2 {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .ppkuva {
+        text-align: center;
+        width: 100%;
+    }
+
+    .ppkuva img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tapahtumat div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
