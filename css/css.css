@@ -9,7 +9,7 @@ body {
     background-color: rgb(182, 0, 0);
 }
 
-h1,h2,h3,h4,h5,h6,h7 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Post No Bills Colombo', monospace;
 }
 
@@ -49,6 +49,18 @@ header {
 
 .header-nav-element:hover{
     color: #C3E300;
+}
+
+@media (min-width: 700px) {
+    .header-nav-element span{
+        display: inline!important;
+    }
+}
+
+@media (max-width: 699px) {
+    .header-nav-element span{
+        display: none!important;
+    }
 }
 
 .ostoskori {
@@ -129,7 +141,7 @@ footer img {
 }
 
 .ostoskori-menu-items{
-    height: 330px;
+    height: 320px;
     overflow-y: scroll;
 }
 
@@ -144,5 +156,16 @@ footer img {
 
 .ostoskori-menu-bottom{
     text-align: right;
-    height: 48px;
+    height: 58px;
+}
+
+.ostoskori-tilaa{
+    float: right;
+    display: block;
+    background:rgb(182, 0, 0);
+    margin: 10px 20px 0 0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: max-content;
 }
