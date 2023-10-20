@@ -96,3 +96,33 @@ p {
     font-size: 45px;
     text-align:center;
 }
+
+@media (max-width: 830px) {
+    .jskuva {
+        display: block;
+        width: 100%;
+    }
+
+    .sivutieto {
+        display: block;
+        width: 100%;
+    }
+
+    .kotiinkuljetus-osio {
+        width: 60%;
+        text-align: center;
+    }
+
+    .aukioloajat-osio {
+        width: 60%;
+        text-align: center;
+    }
+
+    .uutuudet-teksti {
+        text-align: center;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
