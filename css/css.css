@@ -110,23 +110,3 @@ article {
     padding-top: 100px;
     padding-left: 75px;
 }
-
-.pizzaperjantai{
-    padding-top:50px;
-}
-.ppkuva {
-    display: inline-block; 
-    width: auto; 
-    vertical-align: top;
-    padding-left: 0;
-}
-.tapahtumat {
-    font-family: 'Post No Bills Colombo Extrabold';
-    padding-left: 30px;
-    font-size: 26px;
-}
-
-.pizzaperjantai2{
-    padding-top: 100px;
-    padding-bottom: 100px
-}

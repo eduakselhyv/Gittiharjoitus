@@ -1,13 +1,15 @@
 .uutuudet-img{
     height: 500px;
-    width: 85%;
+    width: 530px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url(img/talonerikoinen.jpg);
+    background-image: url(../img/talonerikoinen.jpg);
     display: block;
 }
+
+
 .edellinen{
     position: absolute;
     left: 25px;
