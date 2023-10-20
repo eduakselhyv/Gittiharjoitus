@@ -72,7 +72,7 @@ p {
 .aukioloajat-osio {
     background-color: darkred; 
     padding: 10px; 
-    width: 70%;
+    width: 100%;
 }
 
 .aukioloajat {
@@ -106,24 +106,39 @@ p {
 @media screen and (max-width: 1110px) {
     .sivutieto {
         width: 100%;
+        width: 50%;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 30px;
+        width: 100%;
     }
 
     .jskuva {
+        padding-left: 0;
+        padding-bottom: 30px;
         width: 100%;
-        margin-right: 0px;
-    }
-
-    .aukioloajat-osio {
-        width: 300px;
-        text-align: center;
-    }
-
-    .kotiinkuljetus-osio {
-        width: 350px;
         text-align: center;
     }
 
     article {
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .uutuudet-img {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .kotiinkuljetus-osio {
         padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .aukioloajat-osio {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
