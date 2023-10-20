@@ -1,6 +1,6 @@
 .uutuudet-img{
     height: 500px;
-    width: 85%;
+    width: 540px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,12 +8,20 @@
     background-image: url('../img/talonerikoinen.jpg');
     display: block;
 }
+
 .edellinen{
     position: absolute;
     left: 25px;
     top: 50%;
     transform: translate(0,-50%);
 }
+
+article {
+    text-decoration: none; color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-left: 75px;
+}
+
 .seuraava{
     position: absolute;
     right: 25px;
@@ -55,16 +63,16 @@ p {
     vertical-align: top;
 }
 
-.aukioloajat-osio {
-    background-color: darkred; 
-    padding: 10px; 
-    width: 70%;
-}
-
 .sivutieto-otsikot {
     color: white; 
     font-family: post no bills colombo extrabold; 
     font-size: 40px
+}
+
+.aukioloajat-osio {
+    background-color: darkred; 
+    padding: 10px; 
+    width: 70%;
 }
 
 .aukioloajat {
@@ -93,4 +101,29 @@ p {
     padding-left: 65px;
     font-size: 45px;
     text-align:center;
+}
+
+@media screen and (max-width: 1110px) {
+    .sivutieto {
+        width: 100%;
+    }
+
+    .jskuva {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .aukioloajat-osio {
+        width: 300px;
+        text-align: center;
+    }
+
+    .kotiinkuljetus-osio {
+        width: 350px;
+        text-align: center;
+    }
+
+    article {
+        padding-left: 0;
+    }
 }
