@@ -3,8 +3,8 @@
     font-family: 'Post No Bills Colombo', monospace;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 
 .yhteysinfo {
@@ -33,4 +33,13 @@
     display: inline-block; 
     width: 48%; 
     vertical-align: top
+}
+
+.yhteystiedot-button {
+    width: 300px;
+}
+
+.aside-kartta {
+    display: inline-block; 
+    width: auto;
 }
