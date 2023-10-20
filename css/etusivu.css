@@ -72,3 +72,16 @@ p {
     font-size: 20px; 
     font-family: post no bills colombo;
 }
+
+.kotiinkuljetus-osio {
+    background-color: darkred; 
+    padding: 10px; 
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.kotiinkuljetus {
+    color: white; 
+    font-family: post no bills colombo; 
+    font-size: 20px
+}
