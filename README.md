@@ -1,12 +1,12 @@
 # Pizzabox sivusto
 ## Sivut
-# Kotisivu:
+### Kotisivu:
 Kotisivulla on tarjousten kuvat, aukioloajat ja kotiinkuljetushinnat.
-# Menu:
+### Menu:
 Menu-sivulla on ruoat (eli ruokalista).
-# Ota yhteyttä:
+### Ota yhteyttä:
 Täällä sivulla on yhteystiedot.
-# Tapahtumat
+### Tapahtumat
 Täällä sivulla on tapahtumat.
 ## Ohjelmointikielet
 - HTML
